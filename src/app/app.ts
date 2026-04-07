@@ -5,10 +5,11 @@ import { Image } from './image/image';
 import { Counter } from './counter/counter';
 import { Input } from './input/input';
 import { List } from './list/list';
+import { Toggle } from './toggle/toggle';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Welcome, Image, Counter, Input, List],
+  imports: [RouterOutlet, Welcome, Image, Counter, Input, List, Toggle],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
