@@ -4,10 +4,11 @@ import { Welcome } from './welcome/welcome';
 import { Image } from './image/image';
 import { Counter } from './counter/counter';
 import { Input } from './input/input';
+import { List } from './list/list';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Welcome, Image, Counter, Input],
+  imports: [RouterOutlet, Welcome, Image, Counter, Input, List],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
