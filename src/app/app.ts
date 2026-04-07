@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { Welcome } from './welcome/welcome';
 import { Image } from './image/image';
 import { Counter } from './counter/counter';
+import { Input } from './input/input';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Welcome, Image, Counter],
+  imports: [RouterOutlet, Welcome, Image, Counter, Input],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
